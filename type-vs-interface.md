@@ -35,7 +35,7 @@ interface User {
 ```
 ---
 
-## Some basic difference
+## Some basic differences
 1. Unions: Type aliases can create union types, but interfaces cannot directly create.
 2. Assignment: Type aliases use an assignment operator (=), whereas interfaces do not use =.
 3. Extension: Interfaces are extended using the extends keyword. Type aliases are combined using intersection types (&).

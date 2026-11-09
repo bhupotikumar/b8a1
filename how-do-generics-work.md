@@ -5,7 +5,7 @@ Author: "Bhupoti Kumar Roy"
 Introduction: A quick look at how Generics work in TypeScript, and how do they help when working with asynchronous Promise<T>.
 ---
 
-# Generic
+## Generic
 
 Typescript is powerful because of its static type system. It is a superset of JavaScript.
 Specially the generics allow us to write flexible, reusable and fully type-safe. A generic pass the type as a parameter using angle brackets (`<T>`)
@@ -19,7 +19,7 @@ function identity<T>(arg: T): T {
 
 ---
 
-# Asynchronous Code And Promise<T>
+## Asynchronous Code And Promise<T>
 
 In modern web development, we constantly work with asynchronous operations using async/await and fetch.
 In typescript every async function returns a promise, because promise is a built-in generic interface in typescript.
@@ -34,7 +34,7 @@ async function fetchApiResponse<T>(url: string): Promise<T> {
 
 ---
 
-# Some benefits of using generics with Promise
+## Some benefits of using generics with Promise
 
 1. Code Reusability: We don't need to write duplicate fetching or processing logic for every different data.
 2. Compile-Time Safety: TypeScript ensures that whatever data comes back from your asynchronous operation matches the expected interface.

@@ -1,6 +1,6 @@
 # Assignment-1 is Solved.
 
-In this assingment, I have solved 8 problems. To solve these problems I used typescript's core and fundamentals.
+In this assignment, I have solved 8 problems. To solve these problems I used typescript's core and fundamentals.
 In this assignment, I have practiced and used\_
 
 - Primitive types(string, number, boolean etc)
