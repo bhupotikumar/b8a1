@@ -36,7 +36,7 @@ interface User {
 ---
 
 ## Some basic difference
-Unions: Type aliases can create union types, but interfaces cannot directly create.
-Assignment: Type aliases use an assignment operator (=), whereas interfaces do not use =.
-Extension: Interfaces are extended using the extends keyword. Type aliases are combined using intersection types (&).
-Declaration Merging: Interfaces can be redeclared, and if redeclared, they automatically merge. Type aliases cannot be redeclare.
+1. Unions: Type aliases can create union types, but interfaces cannot directly create.
+2. Assignment: Type aliases use an assignment operator (=), whereas interfaces do not use =.
+3. Extension: Interfaces are extended using the extends keyword. Type aliases are combined using intersection types (&).
+4. Declaration Merging: Interfaces can be redeclared, and if redeclared, they automatically merge. Type aliases cannot be redeclare.
